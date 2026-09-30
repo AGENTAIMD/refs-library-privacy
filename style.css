@@ -1,0 +1,4 @@
+:root{--fg:#1f2328;--bg:#ffffff;--muted:#59636e;--link:#0969da}
+@media (prefers-color-scheme:dark){:root{--fg:#e6edf3;--bg:#0d1117;--muted:#9198a1;--link:#4493f8}}
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;color:var(--fg);background:var(--bg)}
+a{color:var(--link)} h1{margin-bottom:4px} .muted{color:var(--muted)}
